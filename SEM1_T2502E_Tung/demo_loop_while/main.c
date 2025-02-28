@@ -1,6 +1,7 @@
 // Ví dụ minh hoạ While
 
 #include<stdio.h>
+#include <stdbool.h>
 void whileexample()
 {
     int i = 0;
@@ -13,7 +14,7 @@ void whileexample()
 void whileexample2(int n)
 {
     int i = 0;
-    while(i < n )
+    while(true)
     {
         if (i%2==0)
         {
