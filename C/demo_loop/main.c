@@ -55,18 +55,62 @@ void forexample5(int n)
         }
     }
 }
+// Viết chương trình hiển thị ra các số theo tứ tụ giảm dần
+void forexample6(int n){
+    for (int i = n; i >0; i--)
+    {
+       if (i%2==0)
+       {
+        printf("i = %d\r\n",i);
+       }
+       else{
+        printf("Invalid \r\n");
+       }
+       
+    }
+    
+}
+void whileexample(){
+    int i =0;
+    while(i<=5)
+    {
+        printf("i = %d\r\n",i);
+        i++;
+    }
+}
+void whileexample2(int n){
+    int i=0;
+    while (1)
+    {
+       if (i%2==0)
+       {
+        printf("i =%d\r\n",i);
+       }
+       else{
+        printf("Invalid \r\n");
+       }
+       i++;
+    }
+    
+}
 int main(){
     // forexample();
     // forexample2();
     // forexample3();
     // forexample4();
+    // printf("Please enter a number \r\n");
+    // int n;
+    // scanf("%d",&n);
+    // forexample5(n);
+    // printf("Please enter a number \r\n");
+    // int m;
+    // scanf("%d",&m);
+    // forexample6(m);
+    // whileexample();
     printf("Please enter a number \r\n");
-    int n;
+    int n =0;
     scanf("%d",&n);
-    forexample5(n);
-    printf("Please enter a number \r\n");
-    int m;
-    scanf("%d",&m);
-    forexample5(m);
+    whileexample2(n);
+    printf("End \r\n");
     return 0;
 }
