@@ -29,9 +29,52 @@ void countVowels(){
     printf("Count of vowels : %d",count);
     
 }
+void printfNumberAdv(int n){
+    int numbers[n];
+    for (int i = 0; i < n; i++)
+    {
+        printf("Please enter a number: \r\n");
+        scanf("%d",&numbers[i]);
+    }
+    for (int j = 0; j < n; j++)
+    {
+        printf("Value is %d\r\n",numbers[j]);
+    }
+    
+}
 // Bài tập: Viết chương trình hiển thị ra các ký tự trong tên của bạn.
-int main(){
+// Bài tập 2: Viết chương trình nhập vào từ bạn phím một số nguyên n. 
+// Nhập một mảng n ký tự
+// và hiển thị các ký tự đã nhập ra màn hình.
+// Bài tập 3: Viết một chương trình cho phép thực hiện việc nhập dữ liệu vào mảng ký tự
+// Chương trình chỉ dừng lại khi nhập vào giá trị là | hoặc là khi bấm ESC. 
+
+
+void getcharExample(int n){
+    char charArrays[n];
+    char letter;
+    for (int i = 0; i < n; i++)
+    {
+        letter = getchar();
+        if (letter==27)
+        {
+            printf("Enter ESC");
+        }
+        
+        charArrays[i]=letter;
+    }
+   for (int j = 0; j < n; j++)
+   {
+        printf("Element i =%d %c \r\n",j,charArrays[j]);
+   }
    
-    countVowels();
+    
+    
+}
+int main(){
+    int n =10;
+    // printf("Please enter size of array \r\n");
+    // scanf("%d",&n);
+    getcharExample(n);
     return 0;
 }
