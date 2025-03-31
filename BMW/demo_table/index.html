@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Table</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h3>Student Infomation Table</h3>
+    <table class="table table-active" border="1">
+        <thead>
+            <th>Thứ tự</th>
+            <th>Mã Sinh viên</th>
+            <th>Họ Tên</th>
+            <th>Giới tính</th>
+            <th>Địa chỉ</th>
+            <th>Số Điện thoại</th>
+            <th>Năm sinh</th>
+            <th>Ảnh</th>
+            <th>Chức năng</th>
+        </thead>
+        <tbody class="border-0">
+            <tr class="align-items-center">
+                <td>1</td>
+                <td>T20250001</td>
+                <td>Nguyễn Bình Minh</td>
+                <td>
+                    <div class="btn btn-primary dropdown-toggle" data-bs-toggle ="dropdown">
+                        <span>Chọn Giới tính</span>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"> <button class="btn btn-secondary">Nam</button> </li>
+                        <li class="dropdown-item"> <button class="btn btn-secondary">Nữ</button></li>
+                        <li class="dropdown-item"> <button class="btn btn-secondary">Khác</button></li>
+                    </ul>
+                </td>
+                <td>Hà Nội</td>
+                <td>0987676544566</td>
+                <td>2000</td>
+                <td>
+                    <div>
+                        <img src="./images/hanoi03.jpg" width="100" height="100" class="img-fluid rounded-2" alt="new picture">
+                    </div>
+                </td>
+                <td>
+                    <div class="container-fluid">
+                        <button class="btn btn-success py-1 px-4" ondblclick="alert('Double click')">Sửa</button>
+                        <button class="btn btn-danger py-1" >Xoá</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>T20250001</td>
+                <td>Nguyễn Thị Hồng</td>
+                <td>
+                    <div class="btn btn-primary dropdown-toggle" data-bs-toggle ="dropdown">
+                        <span>Chọn Giới tính</span>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"> <button class="btn btn-secondary">Nam</button> </li>
+                        <li class="dropdown-item"> <button class="btn btn-secondary">Nữ</button></li>
+                        <li class="dropdown-item"> <button class="btn btn-secondary">Khác</button></li>
+                    </ul>
+                </td>
+                <td>Nam Định</td>
+                <td>0987676544566</td>
+                <td>2001</td>
+                <td>
+                    <div>
+                        <img src="./images/hanoi03.jpg" width="100" height="100" class="img-fluid rounded-2" alt="new picture" >
+                    </div>
+                </td>
+                <td>
+                    <div class="container-fluid">
+                        <button class="btn btn-success py-1 px-4" onclick="alert('Chức năng Sửa')" >Sửa</button>
+                        <button class="btn btn-danger py-1">Xoá</button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
