@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo JavaScript</title>
+</head>
+<body>
+    <h1 id ="title">Hello Java Script</h1>
+    <button onclick="changeText()">Change Text</button>
+    <script>
+        var className = "T2502E";
+        className = "T2503E";
+        // alert("Hello "+  className +"!!!");
+        // alert("Summary: "+sum(7,5));
+        document.writeln("Hello "+  className +"!!!");
+        document.writeln("Summary: "+sum(7,5));
+        console.log("Hello "+  className +"!!!");
+        console.log("Summary: "+sum(7,5));
+
+        function changeText(){
+            var title = document.getElementById("title");
+            title.innerText="Hello T2502E";
+        }
+
+        listnNumber();
+        function sum(x,y){
+            return x+y;
+        }
+        function listnNumber(){
+            for (let n = 0; n < 10; n++) {
+                if (n%2==0) {
+                    console.log(n)
+                }
+            }
+        }
+    </script>
+</body>
+</html>

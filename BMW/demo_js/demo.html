@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo JavaScript</title>
+</head>
+<body>
+    <h1 id ="title">Hello World</h1>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeColor()">Change Color</button>
+    <button onclick="changeBackgroundColor()"> Change Background Color</button>
+    <div>
+        <label>x:</label>
+        <input id="x" type="text" value="0">
+        <label>y:</label>
+        <input id="y" type="text" value="0">
+        <label>Result</label>
+        <input id="result" type="text" value="0">
+        <button onclick="summary()">Add</button>
+        <button onclick="reset()">Reset</button>
+       
+    </div>
+    <script>
+        // Hàm thay đổi giá trị văn bản
+        function changeText(){
+            var title = document.getElementById("title");
+            title.innerText = "Hello T2502E";
+        }
+        // Hàm thay đổi màu chữ
+        function changeColor(){
+            var title = document.getElementById("title");
+            title.style.color ="red";
+        }
+        // Hàm tính tổng hai số
+        function summary(){
+            var x = document.getElementById("x").value;
+            x = parseInt(x);
+            console.log(x);
+            var y = document.getElementById("y").value;
+            y = parseInt(y);
+            var result = x+y;
+            console.log("Result "+ result);
+            document.getElementById("result").value = result;
+        }
+        function reset(){
+            document.getElementById("x").value = 0;
+            document.getElementById("y").value = 0;
+            document.getElementById("result").value =0;
+            document.getElementById("x").focus();
+        }
+        document.addEventListener('click',changeBackgroundColor);
+        function changeBackgroundColor(){
+            const r = Math.floor(Math.random()*256);
+            const g = Math.floor(Math.random()*256);
+            const b = Math.floor(Math.random()*256);
+            document.body.style.backgroundColor =`rgb(${r},${g},${b})`;
+        }
+        
+    </script>
+</body>
+</html>
