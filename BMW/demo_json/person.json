@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Nguyen Van Nam",
+    "age": 25,
+    "sex": "Male",
+    "job": "IT",
+    "address": {
+      "ward": "Yen Phu",
+      "District": "Ba Dinh",
+      "City": "Ha noi"
+    }
+  },
+  {
+    "name": "Viet Vinh",
+    "age": 25,
+    "sex": "Male",
+    "job": "CEO",
+    "address": {
+      "ward": "Yen Phu",
+      "District": "Ba Dinh",
+      "City": "Ha noi"
+    }
+  }
+]

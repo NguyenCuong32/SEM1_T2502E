@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Number</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .lucky-number {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            min-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="getLuckyNumber()">Bấm để lấy số may mắn</button>
+    <div id="luckyNumber" class="lucky-number"></div>
+    <script>
+        function getLuckyNumber() {
+            let luckyNumberElement = document.getElementById("luckyNumber");
+            let count = 0;
+            let interval = setInterval(() => {
+                luckyNumberElement.innerText = "Số may mắn của bạn là: " + (Math.floor(Math.random() * 20) + 1);
+                count++;
+                if (count > 10) {
+                    clearInterval(interval);
+                    let finalNumber = Math.floor(Math.random() * 20) + 1;
+                    luckyNumberElement.innerText = "Số may mắn của bạn là: " + finalNumber;
+                }
+            }, 100);
+        }
+    </script>
+</body>
+</html>
