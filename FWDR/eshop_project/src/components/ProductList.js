@@ -5,8 +5,7 @@ import Product from "./Product";
 import products from "../data/Products.json";
 function ProductList() {
   return (
-    <div>
-      <h1>Product List</h1>
+    <div >
       {
         // Duyệt từng sản phẩm trong mảng products
         // Mỗi phần tử được lưu vào biến product

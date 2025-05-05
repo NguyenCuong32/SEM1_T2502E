@@ -1,0 +1,6 @@
+p:hover {
+    padding: 0.5rem;
+    background-color: #f0dfdf;
+    transform: auto;
+    transition: all 0.3s ease;
+} 

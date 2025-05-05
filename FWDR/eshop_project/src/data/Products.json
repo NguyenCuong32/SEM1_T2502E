@@ -42,5 +42,13 @@
         "price":999.99,
         "qty":10,
         "sub-description1":"The iPhone 14 Pro is a powerful and stylish smartphone that combines cutting-edge technology with a sleek design. It features a stunning 6.1-inch Super Retina XDR display, A16 Bionic chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its premium materials and innovative features, the iPhone 14 Pro is the perfect device for"
+    },
+    {
+        "id":6,
+        "name":"IPad",
+        "description":"This is iPad",
+        "price":999.99,
+        "qty":10,
+        "sub-description1":"The iPad is a powerful and stylish tablet that combines cutting-edge technology with a sleek design. It features a stunning display, A16 Bionic chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its premium materials and innovative features, the iPad is the perfect device for those who demand the best in technology and style."
     }
 ]

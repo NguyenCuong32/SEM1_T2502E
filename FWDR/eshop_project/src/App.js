@@ -1,12 +1,17 @@
-
 import "./App.css";
-import ProductList from "./components/ProductList";
-
+import Header from "./routes/Header";
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
+import EmployeePage from "./pages/EmployeePage";
+import ProductPage from "./pages/ProductPage";
 function App() {
   return (
-    <div>
-    <ProductList /> 
-  </div>
+   <Router>
+    <Header></Header>
+      <Routes>
+        <Route path='/employee' element={<EmployeePage></EmployeePage>}></Route>
+        <Route path='/product' element={<ProductPage></ProductPage>}></Route>
+      </Routes>
+    </Router>
   );
 }
 

@@ -8,11 +8,11 @@ function Product(props){
             <p>Available stock: {props.qty}</p>
             <p>Product features and specifications can be listed here.</p>
             <p>Customer reviews and ratings can be displayed here.</p>
-            <button>Add to Cart</button>
-            <button>Buy Now</button>
-            <button>Wishlist</button>
-            <button>Compare</button>
-            <button>Share</button>
+            <button className='btn btn-primary' style={{ margin: '4px' }}>Add to Cart</button>
+            <button className='btn btn-secondary'>Buy Now</button>
+            <button className='btn btn-info'>Wishlist</button>
+            <button className='btn btn-warning'>Compare</button>
+            <button className='btn btn-success'>Share</button>
         </div>
     )
 }
