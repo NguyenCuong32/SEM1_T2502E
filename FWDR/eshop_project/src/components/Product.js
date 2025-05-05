@@ -2,7 +2,7 @@ import './Product.css';
 function Product(props){
     return (
         <div className="product">
-            <h1>{props.title1}</h1>
+            <h1>{props.title}</h1>
             <p>{props.description}</p>
             <p>Price: <b>{props.price}</b></p>
             <p>Available stock: {props.qty}</p>

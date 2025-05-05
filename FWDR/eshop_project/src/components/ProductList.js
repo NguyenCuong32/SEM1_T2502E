@@ -1,11 +1,31 @@
+// Component Product.js
 import Product from "./Product";
+// Dữ liệu về sản phẩm trong file JSON (Products.json)
+// products là biến chứa dữ liệu của file Products.json
+import products from "../data/Products.json";
 function ProductList() {
   return (
     <div>
       <h1>Product List</h1>
-      <Product title1={"Iphone Pro Max"} price={1229.99} qty={10} description={"This is Iphone Pro Max"}/>
-      <Product title={"Iphone Pro"} price={999.99} qty={5} description={"This is Iphone Pro"}/>
-      <Product title={"Iphone 13"} price={799.99} qty={8} description={"This is Iphone 13"}/>
+      {
+        // Duyệt từng sản phẩm trong mảng products
+        // Mỗi phần tử được lưu vào biến product
+        // Gán từng giá trị của product vào cho các prop của component Product
+        products.map((product)=>{
+        return(
+          <Product
+            key={product.id}
+            title={product.title}
+            price={product.price}
+            qty={product.qty}
+            description={product.description}
+          />
+        );
+      })}
+      {/* 
+      Kết quả là trang web hiển thị dữ liệu KHÔNG phụ thuộc vào HTML tĩnh nữa.
+      Kết quả là trang web hiển thị dữ liệu theo danh sách sản phẩm trong file Products.json
+       */}
     </div>
   );
 }
