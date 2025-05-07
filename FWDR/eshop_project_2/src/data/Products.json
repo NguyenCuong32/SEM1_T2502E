@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "name":"IPhone 20 Pro Max",
+        "description":"This is iPhone 20 Pro Max",
+        "price":1229.99,
+        "qty":10,
+        "sub-description1":"The iPhone 15 Pro Max is the latest flagship smartphone from Apple, featuring a stunning 6.7-inch Super Retina XDR display, A17 Pro chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its sleek design and premium materials, the iPhone 15 Pro Max is the ultimate device for those who demand the best in technology and style.",
+        "sub-description2":"The iPhone 15 Pro Max is equipped with a powerful A17 Pro chip, providing exceptional performance and efficiency. The device features a stunning 6.7-inch Super Retina XDR display, offering vibrant colors and deep"
+    },
+    {
+        "id":2,
+        "name":"IPhone 15 Pro",
+        "description":"This is iPhone 15 Pro",
+        "price":999.99,
+        "qty":10,
+        "sub-description1":"The iPhone 15 Pro is a powerful and stylish smartphone that combines cutting-edge technology with a sleek design. It features a stunning 6.1-inch Super Retina XDR display, A17 Pro chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its premium materials and innovative features, the iPhone 15 Pro is the perfect device for those who demand the best in technology and style.",
+        "sub-description2":"The iPhone 15 Pro is powered by the A17 Pro chip, providing exceptional performance and efficiency. The device features a stunning 6.1-inch Super Retina XDR display, offering vibrant colors"
+    },
+    {
+        "id":3,
+        "name":"IPhone 15",
+        "description":"This is iPhone 15",
+        "price":799.99,
+        "qty":10,
+        "sub-description1":"The iPhone 15 is a powerful and stylish smartphone that combines cutting-edge technology with a sleek design. It features a stunning 6.1-inch Super Retina XDR display, A16 Bionic chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its premium materials and innovative features, the iPhone 15 is the perfect device for those who demand the best in technology and style.",
+        "sub-description2":"The iPhone 15 is powered by the A16 Bionic chip, providing exceptional performance and efficiency. The device features a stunning 6.1-inch Super Retina XDR display, offering vibrant colors"
+    },
+    {
+        "id":4,
+        "name":"IPhone 14 Pro Max",
+        "description":"This is iPhone 14 Pro Max",
+        "price":1099.99,
+        "qty":10,
+        "sub-description1":"The iPhone 14 Pro Max is a powerful and stylish smartphone that combines cutting-edge technology with a sleek design. It features a stunning 6.7-inch Super Retina XDR display, A16 Bionic chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its premium materials and innovative features, the iPhone 14 Pro Max is the perfect device for those who demand the best in technology and style.",
+        "sub-description2":"The iPhone 14 Pro Max is powered by the A16 Bionic chip, providing exceptional performance and efficiency. The device features a stunning 6.7-inch Super Retina XDR display, offering vibrant colors"
+    },
+    {
+        "id":5,
+        "name":"IPhone 14 Pro",
+        "description":"This is iPhone 14 Pro",
+        "price":999.99,
+        "qty":10,
+        "sub-description1":"The iPhone 14 Pro is a powerful and stylish smartphone that combines cutting-edge technology with a sleek design. It features a stunning 6.1-inch Super Retina XDR display, A16 Bionic chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its premium materials and innovative features, the iPhone 14 Pro is the perfect device for"
+    },
+    {
+        "id":6,
+        "name":"IPad",
+        "description":"This is iPad",
+        "price":999.99,
+        "qty":10,
+        "sub-description1":"The iPad is a powerful and stylish tablet that combines cutting-edge technology with a sleek design. It features a stunning display, A16 Bionic chip for lightning-fast performance, and an advanced camera system with improved low-light capabilities. With its premium materials and innovative features, the iPad is the perfect device for those who demand the best in technology and style."
+    }
+]
