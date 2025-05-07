@@ -9,8 +9,12 @@
         - Tạo Employee
         - Tạo EmployeeList
         - Tạo dữ liệu cho file Employee.json
+        - Tạo trang ProductPage và trang EmployeePage
+## Bước 5: 
+    - Tạo Header có nav đến ProductPage và EmployeePage
+    - Sử dụng thư viện react-router-dom để định nghĩa các router trong App.js
 
-
+Kết quả đạt được là có một website có nhiều trang
 
 # Một số lệnh cơ bản:
     - npm start: dùng để chạy chương trình
