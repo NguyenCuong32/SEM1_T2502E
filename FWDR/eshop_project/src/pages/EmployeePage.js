@@ -1,4 +1,5 @@
 import EmployeeList from "../components/EmployeeList";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function EmployeePage() {
   return (
     <div className="row">

@@ -1,5 +1,6 @@
 import Employee from "./Employee";
 import employees from "../data/Employee.json";
+import .'bootstrap/dist/css/bootstrap.min.css';
 // Dữ liệu về nhân viên trong file JSON (employees.json)
 function EmployeeList() {
   return (
