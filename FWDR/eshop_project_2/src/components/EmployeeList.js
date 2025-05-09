@@ -1,5 +1,7 @@
 import Employee from "./Employee";
 import employees from "../data/Employee.json";
+import axios from "axios"
+import { useEffect, useState } from "react"
 function EmployeeList() {
 
     return (

@@ -1,0 +1,24 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+p:hover{
+    color: rgb(150, 150, 197);
+}
+button{
+    background-color: rgb(150, 150, 197);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}

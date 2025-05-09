@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "image":"images/employee/1.png",
         "name":"Nguyen Van A",
         "age":19,
         "position":"Intern",
@@ -10,6 +11,7 @@
     },
     {
         "id": 2,
+        "image":"images/employee/2.png",  
         "name":"Nguyen Van B",
         "age":22,
         "position":"Developer",
@@ -19,6 +21,7 @@
     },
     {
         "id": 3,
+        "image":"../../images/employee/3.png",  
         "name":"Nguyen Van C",
         "age":25,
         "position":"Manager",
@@ -28,6 +31,7 @@
     },
     {
         "id": 4,
+        "image":"../../images/employee/4.png",  
         "name":"Nguyen Van D",
         "age":28,
         "position":"Director",
@@ -37,6 +41,7 @@
     },
     {
         "id": 5,
+        "image":"../../images/employee/5.png",  
         "name":"Nguyen Van E",
         "age":30,
         "position":"CEO",

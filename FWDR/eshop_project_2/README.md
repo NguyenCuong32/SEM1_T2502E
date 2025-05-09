@@ -16,6 +16,15 @@
 
 Kết quả đạt được là có một website có nhiều trang
 
+
+
 # Một số lệnh cơ bản:
     - npm start: dùng để chạy chương trình
     - npm i hoặc npm install : dùng để cài đặt các gói thư viện
+
+
+# Triển khai web với mookapi
+## Bước 1: Tạo dữ liệu trên mookapi
+## Bước 2: Cài đặt axious
+    npm i axios
+    
