@@ -1,0 +1,21 @@
+#add-to-cart {
+  background-color: rgb(233, 118, 80);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+#checkout {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin: 16px;
+  border-radius: 8px;
+}

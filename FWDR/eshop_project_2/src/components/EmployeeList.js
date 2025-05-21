@@ -23,7 +23,7 @@ function EmployeeList() {
         return <div>Loading...</div>
     }
     if(error){
-        return <div>Error: {error.message}</div>
+        return <div>Error: {"Have an error, please try again later."}</div>
     }
     return (
         <div>

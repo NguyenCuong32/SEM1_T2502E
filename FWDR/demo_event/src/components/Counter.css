@@ -1,0 +1,25 @@
+#counter {
+  width: 300px;
+  height:100px;
+  background-color: lightgray;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 8px;
+}
+button {
+  background-color: lightblue;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  margin: 16px;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: lightgreen;
+}
+label{
+    font-size: 16px;
+    margin: 16px;
+}
