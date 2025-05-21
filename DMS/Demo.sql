@@ -81,3 +81,8 @@ INSERT INTO dbo.Employee_Project VALUES(2,1)
 INSERT INTO dbo.Employee_Project VALUES(2,3)
 
 SELECT * from dbo.Employee_Project
+
+
+-- Lấy dữ liệu về thu nhập của tất cả nhân viên
+
+select A.Emp_No,A.Emp_Name,B.Salary from dbo.Employee A Join dbo.Grade B On A.Grade_Id = B.Grade_Id
