@@ -1,3 +1,6 @@
+-- Xoá Database HR_Database
+DROP DATABASE HR_Database;
+GO
 -- Tạo mới Database
 CREATE DATABASE HR_Database
 GO
