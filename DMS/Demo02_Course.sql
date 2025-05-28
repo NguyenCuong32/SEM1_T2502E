@@ -28,9 +28,23 @@ CREATE TABLE Faculty(
     [Address] NVARCHAR(128)
     PRIMARY KEY (FacultyId)
 )
-
-CREATE TABLE Course_Faculty(
-    SessionId INT,
-    FacultyId INT,
-    PRIMARY KEY(SessionId,FacultyId)
+GO
+CREATE Table Course(
+    CourseId INT,
+    CourseName NVARCHAR(128),
+    SessionID INT,
+    PRIMARY KEY (CourseId)
 )
+  
+GO
+CREATE TABLE Course_Faculty(
+    CourseId INT,
+    FacultyId INT,
+    PRIMARY KEY(CourseId,FacultyId),
+    FOREIGN KEY(CourseId) REFERENCES [Course](CourseId),
+    FOREIGN KEY(FacultyId) REFERENCES Faculty(FacultyId)
+)
+GO
+
+
+
