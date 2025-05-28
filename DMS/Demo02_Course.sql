@@ -30,7 +30,7 @@ CREATE TABLE Faculty(
 )
 GO
 CREATE Table Course(
-    CourseId INT,
+    CourseId INT IDENTITY(1,1),
     CourseName NVARCHAR(128),
     SessionID INT,
     PRIMARY KEY (CourseId)
@@ -47,4 +47,28 @@ CREATE TABLE Course_Faculty(
 GO
 
 
+INSERT Into dbo.Faculty (FacultyName,DOB,Address) VALUES(N'Nguyễn Văn Minh',GETDATE(),N'Hà nội')
+INSERT Into dbo.Faculty (FacultyName,DOB,Address) VALUES(N'Nguyễn Thị Hoa',GETDATE(),N'Hà nội')
 
+
+INSERT Into dbo.Learn(LearnName,LearnDescription,Capacity) VALUES(N'SQL Cơ bản',N'Học cơ bản về SQL',2)
+
+INSERT Into dbo.[Session] (SessionName,[Description],LearnId) VALUES(N'Phần 1',N'Học cơ bản về SQL',1)
+INSERT Into dbo.[Course] (CourseName,[SessionID]) VALUES(N'SQL Cơ bản',1)
+
+INSERT Into dbo.[Course] (CourseName,[SessionID]) VALUES(N'C Cơ bản',1)
+
+INSERT Into dbo.[Course] (CourseName,[SessionID]) VALUES(N'Java Cơ bản',1)
+
+
+SELECT * from dbo.Faculty
+
+SELECT * from dbo.Learn
+SELECT * from dbo.Session
+SELECT * from dbo.Course
+SELECT * from dbo.Course_Faculty
+
+INSERT INTO dbo.Course_Faculty (CourseId,FacultyId) VALUES(1,1)
+INSERT INTO dbo.Course_Faculty (CourseId,FacultyId) VALUES(2,1)
+INSERT INTO dbo.Course_Faculty (CourseId,FacultyId) VALUES(3,1)
+INSERT INTO dbo.Course_Faculty (CourseId,FacultyId) VALUES(1,2)
